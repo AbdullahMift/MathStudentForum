@@ -38,6 +38,7 @@ function App() {
   }, []);
 
   useEffect(() => {
+    console.log("ttttttt");
     fetchAllMathTasks();
   }, []);
 
